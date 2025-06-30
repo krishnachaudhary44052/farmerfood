@@ -1,0 +1,14 @@
+.location-form {
+  background-color: #f8f9f7;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.location-form h3 {
+  font-weight: bold;
+}
+
+.location-form input {
+  border-radius: 8px;
+}

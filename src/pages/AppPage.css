@@ -1,0 +1,79 @@
+.rewards-section {
+  background-color: #388e09; /* Bright green background */
+}
+
+.download-btn {
+  border-radius: 6px;
+  padding: 10px 24px;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #e2e2e2;
+  color: #000;
+}
+.rewards-info {
+  background-color: #f9f9f9;
+}
+
+.reward-img {
+  max-width: 80%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.reward-img:hover {
+  transform: scale(1.03);
+}
+.reserve-section {
+  background-color: #fdfce3; /* light creamy yellow */
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+.reserve-img {
+  max-width: 70%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.reserve-img:hover {
+  transform: scale(1.03);
+}
+.easy-ordering-section {
+  background-color: #f5f5f5;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #1d3c34;
+}
+
+.ordering-img {
+  max-width: 70%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.ordering-img:hover {
+  transform: scale(1.03);
+}
+.find-fridges-section {
+  background-color: #ffffde;
+  min-height: 100vh;
+}
+
+.phone-img {
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.btn-success {
+  padding: 10px 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,168 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1; 
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1; 
+}
+
+.hero-overlay h1 {
+  font-size: 4.5rem;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8);
+}
+
+.our-story-section {
+  background-color: #f9f9f9;
+}
+
+.our-story-section h2 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.description-text {
+  font-size: 1rem;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.highlight {
+  color: #2cba73;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.highlight-section {
+  background: linear-gradient(135deg, #277901); /* Gradient green */
+  color: white;
+}
+
+.highlight-section h1 {
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+.highlight-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #f9f9f9;
+}
+
+.highlight-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-section {
+  background-color: #f9f9f9;
+}
+
+.about-section h4 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about-section p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.brand-link {
+  color: #2cba73;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.caption {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 767.98px) {
+  .about-section .row {
+    text-align: center;
+  }
+}
+.fridge-info-section {
+  background-color: #327b00; /* Rich green */
+}
+
+.fridge-info-section h3 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+
+.fridge-img {
+  max-height: 400px;
+}
+
+.fridge-info-section p {
+  color: #f2f2f2;
+}
+
+.fridge-info-section .btn {
+  font-weight: 500;
+}
+
+.fridge-info-section .btn-outline-light {
+  border: 2px solid white;
+}
+.press-mentions-section {
+  background-color: #fff;
+}
+
+.press-logo {
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.press-mentions-section p {
+  font-size: 0.95rem;
+  color: #111;
+  font-weight: 500;
+}
+
+.press-mentions-section .btn-outline-success {
+  border: 1px solid #2cba73;
+  color: #2cba73;
+}
+
+.press-mentions-section .btn-outline-success:hover {
+  background-color: #2cba73;
+  color: #fff;
+}
+
+
+@media (max-width: 767px) {
+  .fridge-img {
+    max-height: 300px;
+    margin-top: 20px;
+  }
+}

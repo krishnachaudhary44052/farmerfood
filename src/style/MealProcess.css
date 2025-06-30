@@ -1,0 +1,27 @@
+.section-title {
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.meal-step img {
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.meal-step h5 {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.meal-step p {
+  font-size: 0.9rem;
+  color: #333;
+}
+.meal-step img{
+  max-height: 180px;
+  object-fit: fill;
+  width: 100%;
+
+}

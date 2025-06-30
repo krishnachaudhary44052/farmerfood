@@ -1,0 +1,22 @@
+.fridge-tabs {
+  background-color: #3d8707;
+}
+
+.nav-tabs .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: transparent;
+  border-color: white white transparent;
+}
+
+.icon {
+  color: #bdf29f;
+  margin-right: 8px;
+}
+
+ul ul {
+  margin-left: 1rem;
+}

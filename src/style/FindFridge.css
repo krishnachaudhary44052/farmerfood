@@ -1,0 +1,16 @@
+.find-fridge-container {
+  background-color: #f8faf8; /* light background similar to image */
+}
+
+.fridge-heading {
+  font-size: 2rem;
+}
+.img-fluid{
+    width: 400px;
+}
+
+@media (min-width: 992px) {
+  .fridge-heading {
+    font-size: 2.5rem;
+  }
+}

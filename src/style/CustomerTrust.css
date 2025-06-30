@@ -1,0 +1,26 @@
+.customer-trust-section {
+  background-image: url('/image/14.png'); 
+  background-size: fill;
+  background-position: center;
+  height: 80vh; 
+  position: relative;
+}
+
+.content-box {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.centered-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stars {
+  color: #ffcc00;
+  font-size: 1.5rem;
+}

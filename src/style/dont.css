@@ -1,0 +1,48 @@
+.testimonial-section {
+  background: #fff;
+}
+
+.section-title {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #000;
+}
+
+.testimonial-box {
+  position: relative;
+  padding: 1rem;
+}
+
+.grayscale-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.quote-icon {
+  font-size: 2rem;
+  color: #2b8700;
+  margin-top: 1rem;
+}
+
+.quote-icon.close {
+  margin-top: -1rem;
+}
+
+.quote-text {
+  font-size: 0.95rem;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.testimonial-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.testimonial-title {
+  font-size: 0.9rem;
+  color: #666;
+}

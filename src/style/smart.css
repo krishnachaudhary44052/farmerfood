@@ -1,0 +1,25 @@
+.smart-fridges .section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+}
+
+.bg-custom {
+  background-color: #eaf0aa;
+}
+
+.feature-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.feature-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.fridge-image {
+  max-width: 300px;
+  height: auto;
+}

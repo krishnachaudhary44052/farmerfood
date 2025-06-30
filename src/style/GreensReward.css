@@ -1,0 +1,8 @@
+.greens-reward-section {
+  background-color: #f8f9fa; /* Light background */
+}
+
+.reward-image {
+  max-width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

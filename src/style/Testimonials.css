@@ -1,0 +1,33 @@
+.testimonials-section {
+  background-color: #2c7d12; /* green background */
+}
+
+.testimonial-box {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 4px;
+  position: relative;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-0::after,
+.testimonial-1::after,
+.testimonial-2::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 20px 10px 0 10px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+.stars {
+  font-size: 1.2rem;
+  color: #4caf50;
+}

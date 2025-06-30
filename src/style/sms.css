@@ -1,0 +1,17 @@
+.sms-app-section {
+  background-color: #f9f9f9;
+}
+
+.app-section {
+  background-color: #347a08; /* Green */
+}
+
+.qr-img {
+  width: 80px;
+  height: auto;
+}
+
+.store-badge {
+  height: 40px;
+  width: auto;
+}

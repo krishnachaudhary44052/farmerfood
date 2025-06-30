@@ -1,0 +1,22 @@
+.partners-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.partner-logo {
+  height: 40px;
+  object-fit: contain;
+}
+
+.stat-number {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: 'Georgia', serif;
+}
+
+.stat-label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  color: #555;
+}
